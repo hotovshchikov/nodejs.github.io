@@ -1,0 +1,16 @@
+{
+  "name": "introduction1",
+  "version": "1.0.0",
+  "description": "Package.json example for a node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vera Chuiko",
+  "license": "ISC",
+  "dependencies": {
+    "person": "./modules/person",
+    "express": "^4.16.3"
+  }
+}
